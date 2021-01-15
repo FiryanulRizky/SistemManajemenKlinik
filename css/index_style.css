@@ -1,0 +1,160 @@
+body{
+  background-color: #e1e1e1;
+  font: 15px/1 arial,sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  /*All*/
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
+header{
+  padding: 10px 0 10px 0;
+  background-color: #55b955;
+  border-bottom: #24642f 10px solid;
+  color : #ffffff;
+}
+
+header img{
+  width: 50px;
+  height: 50px;
+}
+
+header #logo img{
+  float:left;
+  padding-left: 5px;
+}
+
+header #logo a{
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  float: left;
+  padding: 10px 0 0 15px;
+}
+
+header .hightlight{
+  color:#0b4928;
+}
+
+header #profil img{
+  float: right;
+  padding-right: 15px;
+}
+
+header #profil h4{
+  float:right;
+  margin: 0;
+  padding: 20px 10px 0 0;
+}
+
+/*sidemenu*/
+#sidemenu {
+  padding: 0 0 0 0;
+  color: #0a9049;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+}
+
+#sidemenu .container{
+  width: 150%;
+  margin: auto;
+  left: auto;
+  right: auto;
+  min-height: 542px;
+  border-right: #24642f 5px solid;
+  border-bottom: #24642f 5px solid;
+}
+
+#sidemenu .main{
+  border-bottom: #464646 2px solid;
+}
+
+#sidemenu ul li{
+  padding: 5px 0 5px 10px;;
+}
+
+#sidemenu a{
+  text-decoration: none;
+  color: #0a9049;
+}
+
+#sidemenu ul li:hover{
+  background-color: #99f399;
+  color: #0b4928;
+}
+
+#sidemenu a:hover{
+  background-color: #99f399;
+  color: #0b4928;
+}
+
+#sidemenu ul ul{
+  display: none;
+}
+
+#sidemenu ul li:hover > ul{
+  display: block;
+}
+
+#logout{
+  background-color: #30813e;
+}
+
+#logout a{
+  color: #ffffff;
+}
+
+/*Content*/
+#content{
+  margin: 0;
+  padding: 0 0 0 60px;
+  min-height: 542px;
+  color:#154c2f;
+  text-align: center;
+  float: left;
+}
+
+#content .container{
+  width:195%;
+  margin:auto;
+  min-height: 500px;
+}
+
+#message{
+  padding-top: 180px;
+  padding-left: 75px;
+}
+
+#message h2{
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  border-bottom: 5px solid #30813e;
+}
+
+#message h4{
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+/*footer*/
+footer{
+  clear: both;
+  background-color: #55b955;
+  text-align: center;
+  color: #ffffff;
+}
